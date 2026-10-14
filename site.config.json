@@ -1,0 +1,16 @@
+{
+  "name": "RunOnAI",
+  "wordmark": { "base": "RunOn", "accent": "AI" },
+  "domain": "runonai.in",
+  "url": "https://runonai.in",
+  "tagline": "Run your business on AI — tools and how-tos, updated daily.",
+  "description": "AI tools and step-by-step how-tos for Indian SME owners: factories, traders, distributors and small manufacturers. Links checked daily.",
+  "sponsorEmail": "sponsor@runonai.in",
+  "ownerEmail": "mail@ankit-agarwal.com",
+  "locale": "en_IN",
+  "pages": {
+    "index": { "title": "{name}: AI tools and how-tos for Indian SMEs", "description": "{description}" },
+    "use-cases": { "title": "12 AI playbooks for Indian SMEs | {name}", "description": "Step-by-step AI playbooks for Indian SMEs: IndiaMART auto-replies, GST invoice entry from photos, WhatsApp orders, payment reminders, regional-language catalogues and more." },
+    "sponsor": { "title": "Sponsor | {name}", "description": "Reach Indian SME owners (manufacturers, traders, distributors) through {name}. Sponsorship pricing on request." }
+  }
+}

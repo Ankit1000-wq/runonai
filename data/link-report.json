@@ -1,0 +1,393 @@
+{
+  "generatedAt": "2026-10-13T07:27:02.630Z",
+  "summary": {
+    "ok": 42
+  },
+  "results": [
+    {
+      "id": "interakt",
+      "name": "Interakt",
+      "url": "https://www.interakt.shop/",
+      "status": 200,
+      "finalUrl": "https://www.interakt.shop/",
+      "ms": 1549,
+      "result": "ok"
+    },
+    {
+      "id": "wati",
+      "name": "WATI",
+      "url": "https://www.wati.io/",
+      "status": 200,
+      "finalUrl": "https://www.wati.io/",
+      "ms": 214,
+      "result": "ok"
+    },
+    {
+      "id": "aisensy",
+      "name": "AiSensy",
+      "url": "https://aisensy.com/",
+      "status": 200,
+      "finalUrl": "https://aisensy.com/",
+      "ms": 349,
+      "result": "ok"
+    },
+    {
+      "id": "gallabox",
+      "name": "Gallabox",
+      "url": "https://gallabox.com/",
+      "status": 200,
+      "finalUrl": "https://gallabox.com/",
+      "ms": 271,
+      "result": "ok"
+    },
+    {
+      "id": "zoho-books",
+      "name": "Zoho Books",
+      "url": "https://www.zoho.com/in/books/",
+      "status": 200,
+      "finalUrl": "https://www.zoho.com/in/books/",
+      "ms": 136,
+      "result": "ok"
+    },
+    {
+      "id": "mybillbook",
+      "name": "myBillBook",
+      "url": "https://mybillbook.in/",
+      "status": 200,
+      "finalUrl": "https://mybillbook.in/",
+      "ms": 332,
+      "result": "ok"
+    },
+    {
+      "id": "tallyprime",
+      "name": "TallyPrime",
+      "url": "https://tallysolutions.com/tally-prime/",
+      "status": 200,
+      "finalUrl": "https://tallysolutions.com/tally-prime/",
+      "ms": 1919,
+      "result": "ok"
+    },
+    {
+      "id": "cleartax-gst",
+      "name": "ClearTax GST",
+      "url": "https://cleartax.in/gst",
+      "status": 200,
+      "finalUrl": "https://cleartax.in/gst",
+      "ms": 328,
+      "result": "ok"
+    },
+    {
+      "id": "refrens",
+      "name": "Refrens",
+      "url": "https://www.refrens.com/",
+      "status": 200,
+      "finalUrl": "https://www.refrens.com/",
+      "ms": 165,
+      "result": "ok"
+    },
+    {
+      "id": "zoho-crm",
+      "name": "Zoho CRM",
+      "url": "https://www.zoho.com/in/crm/",
+      "status": 200,
+      "finalUrl": "https://www.zoho.com/en-in/crm/",
+      "ms": 1150,
+      "result": "ok"
+    },
+    {
+      "id": "bigin-by-zoho-crm",
+      "name": "Bigin by Zoho CRM",
+      "url": "https://www.bigin.com/",
+      "status": 200,
+      "finalUrl": "https://www.bigin.com/en-us/",
+      "ms": 2470,
+      "result": "ok"
+    },
+    {
+      "id": "leadsquared",
+      "name": "LeadSquared",
+      "url": "https://www.leadsquared.com/",
+      "status": 200,
+      "finalUrl": "https://www.leadsquared.com/",
+      "ms": 810,
+      "via": "curl",
+      "fetchStatus": 403,
+      "result": "ok"
+    },
+    {
+      "id": "kylas",
+      "name": "Kylas",
+      "url": "https://www.kylas.io/",
+      "status": 200,
+      "finalUrl": "https://kylas.io/",
+      "ms": 1653,
+      "result": "ok"
+    },
+    {
+      "id": "canva",
+      "name": "Canva",
+      "url": "https://www.canva.com/",
+      "status": 200,
+      "finalUrl": "https://www.canva.com/",
+      "ms": 380,
+      "via": "curl",
+      "fetchStatus": 403,
+      "result": "ok"
+    },
+    {
+      "id": "photoroom",
+      "name": "Photoroom",
+      "url": "https://www.photoroom.com/",
+      "status": 200,
+      "finalUrl": "https://www.photoroom.com/",
+      "ms": 570,
+      "result": "ok"
+    },
+    {
+      "id": "pebblely",
+      "name": "Pebblely",
+      "url": "https://pebblely.com/",
+      "status": 200,
+      "finalUrl": "https://pebblely.com/",
+      "ms": 90,
+      "result": "ok"
+    },
+    {
+      "id": "remove-bg",
+      "name": "remove.bg",
+      "url": "https://www.remove.bg/",
+      "status": 200,
+      "finalUrl": "https://www.remove.bg/",
+      "ms": 960,
+      "result": "ok"
+    },
+    {
+      "id": "chatgpt",
+      "name": "ChatGPT",
+      "url": "https://chatgpt.com/",
+      "status": 200,
+      "finalUrl": "https://chatgpt.com/",
+      "ms": 271,
+      "result": "ok"
+    },
+    {
+      "id": "gemini",
+      "name": "Gemini",
+      "url": "https://gemini.google.com/",
+      "status": 200,
+      "finalUrl": "https://gemini.google.com/",
+      "ms": 183,
+      "via": "curl",
+      "fetchStatus": 0,
+      "fetchError": "UND_ERR_HEADERS_OVERFLOW",
+      "result": "ok"
+    },
+    {
+      "id": "claude",
+      "name": "Claude",
+      "url": "https://claude.com/",
+      "status": 200,
+      "finalUrl": "https://claude.com/",
+      "ms": 213,
+      "result": "ok"
+    },
+    {
+      "id": "grok",
+      "name": "Grok",
+      "url": "https://grok.com/",
+      "status": 200,
+      "finalUrl": "https://grok.com/",
+      "ms": 583,
+      "result": "ok"
+    },
+    {
+      "id": "microsoft-copilot",
+      "name": "Microsoft Copilot",
+      "url": "https://copilot.microsoft.com/",
+      "status": 200,
+      "finalUrl": "https://copilot.com/?fromcode=cmmlf487uwy&sessionId=315dd4d1-dc3e-41d4-8ada-8ed49122cd67&",
+      "ms": 363,
+      "result": "ok"
+    },
+    {
+      "id": "manus",
+      "name": "Manus",
+      "url": "https://www.manus.im/",
+      "status": 200,
+      "finalUrl": "https://www.manus.im/",
+      "ms": 598,
+      "result": "ok"
+    },
+    {
+      "id": "zapier",
+      "name": "Zapier",
+      "url": "https://zapier.com/",
+      "status": 200,
+      "finalUrl": "https://zapier.com/",
+      "ms": 222,
+      "result": "ok"
+    },
+    {
+      "id": "make",
+      "name": "Make",
+      "url": "https://www.make.com/",
+      "status": 200,
+      "finalUrl": "https://www.make.com/",
+      "ms": 569,
+      "result": "ok"
+    },
+    {
+      "id": "n8n",
+      "name": "n8n",
+      "url": "https://n8n.io/",
+      "status": 200,
+      "finalUrl": "https://n8n.io/",
+      "ms": 127,
+      "result": "ok"
+    },
+    {
+      "id": "notion-ai",
+      "name": "Notion AI",
+      "url": "https://www.notion.com/product/ai",
+      "status": 200,
+      "finalUrl": "https://www.notion.com/product/ai",
+      "ms": 106,
+      "result": "ok"
+    },
+    {
+      "id": "google-lens",
+      "name": "Google Lens",
+      "url": "https://lens.google/",
+      "status": 200,
+      "finalUrl": "https://search.google/ways-to-search/lens/",
+      "ms": 318,
+      "result": "ok"
+    },
+    {
+      "id": "nanonets",
+      "name": "Nanonets",
+      "url": "https://nanonets.com/",
+      "status": 200,
+      "finalUrl": "https://nanonets.com/",
+      "ms": 184,
+      "result": "ok"
+    },
+    {
+      "id": "docsumo",
+      "name": "Docsumo",
+      "url": "https://www.docsumo.com/",
+      "status": 200,
+      "finalUrl": "https://www.docsumo.com/",
+      "ms": 564,
+      "result": "ok"
+    },
+    {
+      "id": "zoho-inventory",
+      "name": "Zoho Inventory",
+      "url": "https://www.zoho.com/in/inventory/",
+      "status": 200,
+      "finalUrl": "https://www.zoho.com/us/inventory/",
+      "ms": 217,
+      "result": "ok"
+    },
+    {
+      "id": "fireflies-ai",
+      "name": "Fireflies.ai",
+      "url": "https://fireflies.ai/",
+      "status": 200,
+      "finalUrl": "https://fireflies.ai/",
+      "ms": 84,
+      "result": "ok"
+    },
+    {
+      "id": "otter-ai",
+      "name": "Otter.ai",
+      "url": "https://otter.ai/",
+      "status": 200,
+      "finalUrl": "https://otter.ai/",
+      "ms": 158,
+      "result": "ok"
+    },
+    {
+      "id": "tldv",
+      "name": "tl;dv",
+      "url": "https://www.tldv.io/",
+      "status": 200,
+      "finalUrl": "https://tldv.io/",
+      "ms": 172,
+      "result": "ok"
+    },
+    {
+      "id": "keka",
+      "name": "Keka",
+      "url": "https://www.keka.com/",
+      "status": 200,
+      "finalUrl": "https://www.keka.com/",
+      "ms": 413,
+      "result": "ok"
+    },
+    {
+      "id": "greythr",
+      "name": "greytHR",
+      "url": "https://www.greythr.com/",
+      "status": 200,
+      "finalUrl": "https://www.greythr.com/",
+      "ms": 824,
+      "result": "ok"
+    },
+    {
+      "id": "sarvam-ai",
+      "name": "Sarvam AI",
+      "url": "https://www.sarvam.ai/",
+      "status": 200,
+      "finalUrl": "https://www.sarvam.ai/",
+      "ms": 320,
+      "result": "ok"
+    },
+    {
+      "id": "bhashini",
+      "name": "Bhashini",
+      "url": "https://bhashini.gov.in/",
+      "status": 200,
+      "finalUrl": "https://bhashini.gov.in/",
+      "ms": 1138,
+      "result": "ok"
+    },
+    {
+      "id": "google-translate",
+      "name": "Google Translate",
+      "url": "https://translate.google.com/",
+      "status": 200,
+      "finalUrl": "https://translate.google.com/",
+      "ms": 312,
+      "result": "ok"
+    },
+    {
+      "id": "krutrim",
+      "name": "Krutrim",
+      "url": "https://www.olakrutrim.com/",
+      "status": 200,
+      "finalUrl": "https://www.olakrutrim.com/",
+      "ms": 207,
+      "result": "ok"
+    },
+    {
+      "id": "deepl",
+      "name": "DeepL",
+      "url": "https://www.deepl.com/",
+      "status": 200,
+      "finalUrl": "https://www.deepl.com/en",
+      "ms": 185,
+      "result": "ok"
+    },
+    {
+      "id": "zoho-zia",
+      "name": "Zoho Zia",
+      "url": "https://www.zoho.com/zia/",
+      "status": 200,
+      "finalUrl": "https://www.zoho.com/zia/",
+      "ms": 113,
+      "result": "ok"
+    }
+  ]
+}

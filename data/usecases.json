@@ -1,0 +1,205 @@
+[
+  {
+    "id": "indiamart-auto-reply",
+    "title": "Auto-reply to IndiaMART leads within minutes",
+    "category": "Sales & CRM",
+    "difficulty": "Medium",
+    "problem": "IndiaMART buyers contact 5–10 suppliers at once. The first one to send a useful reply usually gets the call.",
+    "tools": ["Kylas", "Zoho CRM", "Interakt", "ChatGPT"],
+    "steps": [
+      "Connect IndiaMART to your CRM using its built-in integration (Kylas and Zoho CRM both offer one). Keep your IndiaMART API key handy.",
+      "Write 3 reply templates: price enquiry, sample request and bulk/OEM enquiry. Ask ChatGPT to make them short, polite and WhatsApp-friendly.",
+      "Get the templates approved in your WhatsApp Business API tool (Interakt, WATI or AiSensy).",
+      "Set an automation: new IndiaMART lead → send the matching WhatsApp template with your catalogue PDF → create a follow-up task for the salesperson.",
+      "Once a week, check which template gets the most replies and improve the weaker ones."
+    ],
+    "prompt": "You are the sales desk of a Mumbai tin container manufacturer. Write a 60-word WhatsApp reply to an IndiaMART buyer asking for the price of 500 ml round tins. Ask for quantity, printing requirement and delivery city. Be polite and avoid over-promising.",
+    "caution": "Don't quote final prices automatically. Let the bot collect details and leave the price to a human."
+  },
+  {
+    "id": "gst-invoice-from-photos",
+    "title": "GST purchase-invoice data entry from photos",
+    "category": "Documents/OCR",
+    "difficulty": "Easy",
+    "problem": "Accounts staff spend hours typing supplier bills into Tally or Excel, and the typing errors cause GST mismatches.",
+    "tools": ["Nanonets", "Docsumo", "ChatGPT", "Google Lens"],
+    "steps": [
+      "Make one WhatsApp group or email ID (e.g. bills@) where all supplier bills are sent as photos or PDFs.",
+      "For low volumes: upload 5–10 bill photos to ChatGPT or Gemini and ask for a table of GSTIN, invoice no., date, HSN, taxable value, CGST/SGST/IGST and total.",
+      "For high volumes: set up Nanonets or Docsumo with an invoice model and have it read from that inbox automatically.",
+      "Export to Excel/CSV in the column order your Tally import (or your accountant) expects.",
+      "Check totals against the GSTR-2B download before booking, and only fix the rows that don't match."
+    ],
+    "prompt": "Extract these invoices into a table with columns: Supplier name, GSTIN, Invoice no, Invoice date, HSN, Taxable value, CGST, SGST, IGST, Total. If a field is unclear, write UNCLEAR instead of guessing.",
+    "caution": "AI can misread a digit. Always reconcile against GSTR-2B before filing."
+  },
+  {
+    "id": "whatsapp-order-intake",
+    "title": "WhatsApp order intake without chaos",
+    "category": "WhatsApp & customer chat",
+    "difficulty": "Medium",
+    "problem": "Orders arrive as voice notes, photos and half-messages across several staff phones, so some get missed.",
+    "tools": ["Gallabox", "WATI", "AiSensy", "Zapier"],
+    "steps": [
+      "Move to one official WhatsApp Business API number with a shared team inbox.",
+      "Build a short bot flow: customer name → product (from a list) → quantity → delivery city → required date.",
+      "Have each completed flow add a row to a Google Sheet (natively, or through Zapier/Make).",
+      "Send an auto-confirmation with an order reference number back to the customer.",
+      "Have the dispatch team work from the sheet, not from individual chats."
+    ],
+    "prompt": "Turn this WhatsApp message into a structured order (customer, item, size, qty, delivery city, date). If something is missing, list the questions I should ask: <paste message>",
+    "caution": "Keep a 'talk to a person' button. Regular dealers hate being forced through a bot."
+  },
+  {
+    "id": "daily-production-report",
+    "title": "Daily production report in 5 minutes",
+    "category": "Operations & factory",
+    "difficulty": "Easy",
+    "problem": "Supervisors write shift output on paper or WhatsApp, and the owner gets a clear picture a week late.",
+    "tools": ["Google Lens", "ChatGPT", "Gemini", "Zapier"],
+    "steps": [
+      "Give supervisors one fixed format: machine, shift, product, good qty, rejects, downtime minutes, reason.",
+      "They can send a photo of the handwritten sheet or type the format into a WhatsApp group.",
+      "Paste the messages (or photos) into ChatGPT or Gemini and ask for a consolidated table and a 5-line summary.",
+      "Keep the table in one Google Sheet. Once the format is stable, automate the step with Zapier or Make.",
+      "Review the reject % and downtime reasons each morning in a 10-minute stand-up."
+    ],
+    "prompt": "From these shift updates, make a table by machine with good qty, rejects, reject %, and downtime. Then give 3 bullet points on what needs attention today.",
+    "caution": "AI summarises what it's given. Garbage in, garbage out, so enforce the format."
+  },
+  {
+    "id": "payment-follow-up",
+    "title": "Polite payment follow-up reminders",
+    "category": "Accounts/GST & invoicing",
+    "difficulty": "Easy",
+    "problem": "Outstanding payments stretch to 90+ days because nobody wants to make the awkward call.",
+    "tools": ["Zoho Books", "myBillBook", "AiSensy", "ChatGPT"],
+    "steps": [
+      "Export your receivables ageing from Tally, Zoho Books or myBillBook.",
+      "Group customers: 0–30 days (gentle), 31–60 (firm), 60+ (escalate to owner call).",
+      "Use ChatGPT to draft 3 tone-appropriate WhatsApp and email templates in English and Hindi.",
+      "Schedule reminders through your billing app's built-in reminder feature or a WhatsApp API tool.",
+      "Every Monday, review who paid, who promised and who needs a personal call."
+    ],
+    "prompt": "Write a polite but firm WhatsApp payment reminder in Hindi (Roman script) and English for a dealer with ₹1,20,000 outstanding for 45 days. Include invoice numbers placeholder and UPI/bank details placeholder.",
+    "caution": "Never send automated reminders to customers with an open dispute. Tag them and exclude them."
+  },
+  {
+    "id": "quotation-drafting",
+    "title": "Quotation drafting from an enquiry",
+    "category": "Sales & CRM",
+    "difficulty": "Easy",
+    "problem": "Every quotation is rewritten from scratch, and terms (GST, freight, validity) are missed or inconsistent.",
+    "tools": ["ChatGPT", "Claude", "Refrens", "Zoho Books"],
+    "steps": [
+      "Create a master price list and a standard terms block (GST, freight, payment, validity, MOQ) in one document.",
+      "Paste the buyer's enquiry and your price list into ChatGPT or Claude and ask for a draft quotation.",
+      "Move the final numbers into your invoicing tool (Refrens, Zoho Books or Tally) to generate the official PDF.",
+      "Save good quotations as examples. Add them to the prompt next time so the style stays consistent."
+    ],
+    "prompt": "Using my price list and standard terms below, draft a quotation for this enquiry. Show item, size, qty, rate, amount, GST % and total. List any assumptions separately. <price list> <terms> <enquiry>",
+    "caution": "A human must check every rate and GST %. AI can make arithmetic errors."
+  },
+  {
+    "id": "catalogue-regional-languages",
+    "title": "Catalogue in Hindi, Marathi and Gujarati",
+    "category": "Translation/Indian languages",
+    "difficulty": "Easy",
+    "problem": "Dealers and retailers in tier-2/3 towns prefer their own language, but translation agencies are slow.",
+    "tools": ["Bhashini", "Google Translate", "Sarvam AI", "Canva"],
+    "steps": [
+      "Start from a clean English catalogue with short product descriptions (under 40 words each).",
+      "Translate using Bhashini, Google Translate or an AI assistant. Ask for simple, conversational business language.",
+      "Have a native speaker on your team or a dealer review the technical terms (sizes, materials, finishes).",
+      "Use Canva to duplicate the English catalogue design and paste in each language version.",
+      "Share the PDFs on WhatsApp and pin the right language to each dealer group."
+    ],
+    "prompt": "Translate these product descriptions into simple Marathi suitable for a retailer. Keep sizes, units and brand names in English.",
+    "caution": "Machine translation of technical specs can be wrong. Always get a human review."
+  },
+  {
+    "id": "product-photos-listings",
+    "title": "Product photos for IndiaMART and Amazon listings",
+    "category": "Marketing & content",
+    "difficulty": "Easy",
+    "problem": "Listings with dark, cluttered phone photos get fewer enquiries.",
+    "tools": ["Photoroom", "remove.bg", "Pebblely", "Canva"],
+    "steps": [
+      "Shoot products on a plain sheet near a window with your phone. Take 3 angles per product.",
+      "Remove backgrounds in bulk with Photoroom or remove.bg.",
+      "Make white-background images for marketplaces and a few lifestyle scenes with Pebblely for social media.",
+      "Add your logo and size details as a second image in Canva.",
+      "Replace the photos on your top 20 listings first, then compare the enquiry count after 30 days."
+    ],
+    "prompt": null,
+    "caution": "Don't let AI change the product's real shape, colour or print. Buyers will complain on delivery."
+  },
+  {
+    "id": "hiring-jd-screening",
+    "title": "Hiring: job description and first screening",
+    "category": "Hiring/HR",
+    "difficulty": "Easy",
+    "problem": "Vague job posts attract hundreds of mismatched applicants for a machine operator or accountant role.",
+    "tools": ["ChatGPT", "Claude", "Keka", "greytHR"],
+    "steps": [
+      "List the must-haves: shift timing, location, salary range, experience, language and the specific machine or software.",
+      "Ask ChatGPT or Claude for a short JD in English plus a Hindi/Marathi version for shop-floor roles.",
+      "Create 5 screening questions (e.g. 'Which press machines have you run?') and add them to your job post or application form.",
+      "Paste the anonymised responses into AI and ask it to rank candidates against the must-haves, showing its reasons.",
+      "Shortlist manually and track candidates and onboarding in Keka or greytHR."
+    ],
+    "prompt": "Write a job description for a CNC operator in Vasai, 2 shifts, 2+ years experience, salary range <X–Y>. Keep it under 150 words, plus 5 screening questions.",
+    "caution": "Don't let AI reject candidates on its own, and remove names, photos and gender before ranking to avoid bias."
+  },
+  {
+    "id": "dispatch-lr-tracking",
+    "title": "Dispatch and LR (lorry receipt) tracking",
+    "category": "Operations & factory",
+    "difficulty": "Medium",
+    "problem": "Customers keep calling to ask 'where is my material?', and LR copies are lost in WhatsApp.",
+    "tools": ["Google Lens", "ChatGPT", "Zapier", "Interakt"],
+    "steps": [
+      "Have dispatch take a photo of every LR / e-way bill and post it in one dispatch WhatsApp group or upload it to a form.",
+      "Use AI (ChatGPT, Gemini, or Nanonets for volume) to extract the LR no., transporter, vehicle no., date, consignee and packages into a sheet.",
+      "Match each row to its order or invoice number.",
+      "Auto-send the customer a WhatsApp message with the LR number, transporter contact and expected delivery date.",
+      "Review undelivered LRs older than 7 days every week."
+    ],
+    "prompt": "From this LR photo, extract: LR number, transporter, vehicle number, date, from, to, consignee, number of packages, weight. Write UNCLEAR for anything you can't read.",
+    "caution": "Transporter handwriting is hard to read, so verify the vehicle number before sharing it."
+  },
+  {
+    "id": "export-email-replies",
+    "title": "Export enquiry email replies",
+    "category": "Marketing & content",
+    "difficulty": "Easy",
+    "problem": "Foreign buyers judge you by your first email. Slow or awkward English loses good enquiries.",
+    "tools": ["ChatGPT", "Claude", "DeepL", "Gemini"],
+    "steps": [
+      "Keep a fact sheet: capacity, certifications, MOQ, Incoterms you offer, lead times, payment terms and ports.",
+      "Paste the buyer email and fact sheet into ChatGPT or Claude and ask for a concise, professional reply.",
+      "For non-English buyers, write the reply in English and then use DeepL to translate it, keeping both versions in the email.",
+      "Never send a price or delivery commitment the AI made up. Check every number yourself.",
+      "Save your best replies as templates for each kind of enquiry."
+    ],
+    "prompt": "Reply to this buyer enquiry as an Indian manufacturer. Use only the facts in my fact sheet. Be concise and professional, propose a video call and ask for their target quantity and destination port.",
+    "caution": "Watch for scam enquiries (odd payment requests, links). AI can't verify who a buyer is."
+  },
+  {
+    "id": "inventory-reorder-alerts",
+    "title": "Inventory reorder alerts for raw material",
+    "category": "Operations & factory",
+    "difficulty": "Medium",
+    "problem": "Production stops because tinplate, ink or cartons ran out, and nobody noticed until the day of the job.",
+    "tools": ["Zoho Inventory", "Zapier", "ChatGPT", "AiSensy"],
+    "steps": [
+      "List your top 20 raw materials and packaging items with their supplier lead times.",
+      "Ask ChatGPT to suggest reorder points from 3 months of consumption data (average daily use × lead time + safety stock).",
+      "Enter the reorder levels in Zoho Inventory, Tally or a Google Sheet.",
+      "Set an alert so that when stock falls below the reorder level, the purchase manager and owner get a WhatsApp or email message.",
+      "Review the reorder levels every quarter as volumes change."
+    ],
+    "prompt": "Here is 90 days of consumption and supplier lead times. Calculate a reorder point and suggested order quantity for each item, and show the formula you used.",
+    "caution": "Seasonal spikes (Diwali, export season) need manual buffers, because averages hide them."
+  }
+]

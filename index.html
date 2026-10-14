@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="en-IN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- brand:head --><title>RunOnAI: AI tools and how-tos for Indian SMEs</title>
+<meta name="description" content="AI tools and step-by-step how-tos for Indian SME owners: factories, traders, distributors and small manufacturers. Links checked daily.">
+<meta name="application-name" content="RunOnAI">
+<link rel="canonical" href="https://runonai.in/">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="RunOnAI">
+<meta property="og:title" content="RunOnAI: AI tools and how-tos for Indian SMEs">
+<meta property="og:description" content="AI tools and step-by-step how-tos for Indian SME owners: factories, traders, distributors and small manufacturers. Links checked daily.">
+<meta property="og:url" content="https://runonai.in/">
+<meta property="og:locale" content="en_IN">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="RunOnAI: AI tools and how-tos for Indian SMEs">
+<meta name="twitter:description" content="AI tools and step-by-step how-tos for Indian SME owners: factories, traders, distributors and small manufacturers. Links checked daily.">
+<link rel="icon" type="image/svg+xml" href="assets/favicon.svg"><!-- /brand:head -->
+<meta name="theme-color" content="#faf8f4">
+<link rel="stylesheet" href="assets/styles.css">
+</head>
+<body>
+<header class="site-header">
+  <nav class="container nav" aria-label="Main">
+    <!-- brand:logo --><a class="logo" href="index.html" aria-label="RunOnAI home"><img class="logo-mark" src="assets/favicon.svg" alt="" width="32" height="32"><span class="logo-text">RunOn<span class="logo-accent">AI</span></span></a><!-- /brand:logo -->
+    <ul class="nav-links"><li><a href="index.html" aria-current="page">Tools</a></li><li><a href="use-cases.html">Use cases</a></li><li><a href="sponsor.html">Sponsor</a></li></ul>
+  </nav>
+</header>
+<main>
+  <section class="hero">
+    <div class="container">
+      <span class="eyebrow"><span class="dot"></span>Links checked daily · Last update <span id="last-updated">…</span></span>
+      <h1>AI tools that actually help <em>Indian SMEs</em> get work done.</h1>
+      <p class="lede">A curated, link-checked directory for factory owners, traders, distributors and small manufacturers. Every tool comes with a practical Indian use case: GST bills, WhatsApp orders, IndiaMART leads, dispatch and more.</p>
+      <div class="stats"><span><strong id="tool-total">–</strong> tools</span><span><strong id="new-total">–</strong> new this week</span><span><strong>12</strong> <a href="use-cases.html">step-by-step playbooks</a></span></div>
+      <form class="search-wrap" role="search" onsubmit="return false">
+        <label for="search" class="visually-hidden">Search tools</label>
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg>
+        <input id="search" class="search" type="search" placeholder="Search: GST, WhatsApp, Hindi, invoices…" autocomplete="off">
+      </form>
+      <div id="chips" class="chips" role="group" aria-label="Filter by category"></div>
+    </div>
+  </section>
+
+  <section aria-labelledby="new-h">
+    <div class="container">
+      <div class="section-head"><h2 id="new-h">New this week</h2><p>Added in the last 7 days</p></div>
+      <div id="new-strip" class="strip"></div>
+    </div>
+  </section>
+
+  <section aria-labelledby="all-h">
+    <div class="container">
+      <div class="section-head"><h2 id="all-h">All tools</h2><span id="result-count" class="result-count" aria-live="polite"></span></div>
+      <div id="tool-grid" class="grid"><p class="empty">Loading tools…</p></div>
+    </div>
+  </section>
+
+  <section aria-labelledby="signup-h">
+    <div class="container">
+      <div class="signup">
+        <h2 id="signup-h">One useful AI idea for your business, every week.</h2>
+        <p>Short, practical and India-specific. No spam, no hype.</p>
+        <form id="signup-form" novalidate>
+          <label for="email" class="visually-hidden">Email address</label>
+          <input id="email" type="email" required placeholder="you@company.in" autocomplete="email">
+          <button class="btn" type="submit">Notify me</button>
+        </form>
+        <p id="signup-msg" class="form-msg" role="status"></p>
+        <p class="form-note">Placeholder form: there’s no backend yet and nothing you type is stored or sent.</p>
+      </div>
+    </div>
+  </section>
+</main>
+<footer class="site-footer">
+  <div class="container">
+    <!-- brand:footer --><div><span class="logo-text footer-mark">RunOn<span class="logo-accent">AI</span></span> · Run your business on AI — tools and how-tos, updated daily.</div><!-- /brand:footer -->
+    <div>A daily-checked directory of AI tools and playbooks for factories, traders, distributors and small manufacturers.</div>
+    <div>Curated by Ankit Agarwal (Mumbai), who runs Omni Cans and Printers and teaches AI workshops for SMEs. Listings are not endorsements. Pricing changes often, so always confirm on the vendor’s site.</div>
+    <div><a href="index.html">Tools</a> · <a href="use-cases.html">Use cases</a> · <a href="sponsor.html">Sponsor</a> · © <span id="year"></span></div>
+  </div>
+</footer>
+<script src="assets/app.js"></script>
+</body>
+</html>

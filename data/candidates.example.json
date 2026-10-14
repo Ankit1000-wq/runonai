@@ -1,0 +1,14 @@
+[
+  {
+    "name": "Example Tool",
+    "url": "https://example.com/",
+    "category": "Agents & automation",
+    "oneLiner": "One sentence on what it does.",
+    "smeUseCase": "One sentence on how an Indian SME would use it.",
+    "pricing": "unknown",
+    "priceINR": null,
+    "priceSource": null,
+    "evidence": ["https://example.com/pricing"],
+    "notes": "Why the research agent thinks this belongs in the directory."
+  }
+]
